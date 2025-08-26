@@ -1,0 +1,11 @@
+# Ignore class files
+*.class
+
+# Ignore IDE files
+/.idea/
+/*.iml
+*.log
+
+# MacOS
+.DS_Store
+
