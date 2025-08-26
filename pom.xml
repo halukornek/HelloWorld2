@@ -1,11 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
+<project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
-                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.example</groupId>
-    <artifactId>hello-world-java</artifactId>
+    <artifactId>hello-server</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
@@ -13,7 +12,6 @@
         <sourceDirectory>src/main/java</sourceDirectory>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
@@ -22,13 +20,12 @@
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.2.0</version>
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>HelloWorld</mainClass>
+                            <mainClass>HelloServer</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -36,3 +33,4 @@
         </plugins>
     </build>
 </project>
+
